@@ -1,0 +1,67 @@
+nav{
+    text-align: right;
+}
+
+nav button{
+    margin-right: 40px;
+    margin-top: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: rgb(14, 183, 14);
+}
+
+nav button a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+/* .donorList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80vw;
+    margin: auto;
+} */
+ /* .donorList{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    border: 1px solid black;
+ } */
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    /* width: 20px; */
+    /* margin: 10px; */
+}
+.card>div{
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+
+.edit-btn{
+    background-color: rgb(66, 66, 240);
+    color: white;
+    padding: 5px 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 700px;
+}
+.del-btn{
+    background-color: rgb(92, 20, 20);
+    color: white;
+    padding: 5px 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    
+}
