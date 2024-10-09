@@ -1,7 +1,7 @@
 import express from 'express'
 import router from './router.js'
 import connection from './connection.js'
-import { error } from 'console'
+
 const app=express()
 const port=4000
 

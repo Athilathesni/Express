@@ -1,6 +1,6 @@
 async function fetchDonors() {
     try {
-        const response = await fetch('/api/getdonors');
+        const response = await fetch('http://localhost:4000/api/getdonors');
         const donors = await response.json();
         let str=''
 

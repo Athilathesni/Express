@@ -49,4 +49,12 @@ export async function updateDonor(req, res) {
     }
 }
 
-//delete 
+
+
+
+
+// export async function getDonors(req,res) {
+//     console.log(req.params);
+
+    
+// }
